@@ -1,0 +1,176 @@
+.top-nav {
+	min-height: 50px; width: 100%;
+	background-color: #111e6c;
+	color: white;
+}
+
+.right {
+	text-align: right;
+}
+
+.right div{
+	height: 50px; display: inline-block;
+	padding: 13px 5px 0 5px;
+}
+
+.right div:hover {
+	background-color: #2d3d96;
+}
+
+.right a{
+	color: white; text-decoration: none;
+}
+
+.right a:hover {
+	color: white; text-decoration: none;
+}
+
+.svg-container img{
+	display: inline-block;
+	height: 50%;
+	filter: invert(100%);
+}
+
+.side-nav {
+	padding: 20px;
+	height: 100%; 
+	min-height: 100vh;
+	background-color: #FFF;
+	color: #111e6c;
+}
+
+.submenu {
+	padding: 0;
+}
+
+.submenu li {
+	text-indent: 20px;
+	color: #111e6c !important;
+	background-color: #dce0f9;
+	padding: 5px 0px;
+	margin: 3px 0px;
+	position: relative;
+} .submenu li a {
+	text-decoration: none;
+} .submenu li a::before {
+	content: '';
+	position: absolute;
+	transition: all .2s ease;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #111e6c;
+
+} .submenu li a:hover::before {
+	width: 100%;
+	opacity: .2;
+}
+
+.main {
+	padding-top: 50px !important;
+}
+
+.green-card {
+	background-color: #111e6c;
+	display: inline-block;
+}
+
+.alternate {
+	cursor: pointer;
+} 
+
+.alternate:nth-child(odd) {
+	background-color: #FFF;
+} 
+
+.alternate:nth-child(even) {
+	background-color: #dce0f9;
+}
+
+.side-nav a, .side-nav a:hover, .side-nav a:active {
+	color: #111e6c;
+}
+
+.add {
+	color: white;
+	text-decoration: none;
+}
+
+.add:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.bordered {
+	border-bottom: solid 1px #AAA;
+	border-right: solid 1px #AAA;
+}
+
+.btn-success, .btn-success:active, .btn-success:hover, .badge-success{
+	background-color: #111e6c !important;
+	border-color: #111e6c !important;
+}
+
+.btn-success.focus, .btn-success:focus {
+	-webkit-box-shadow:0 0 0 .2rem rgba(255, 127, 39,.5) !important;
+	box-shadow:0 0 0 .2rem rgba(255, 127, 39,.5) !important;
+}
+
+/*========================*/
+
+#add-svg {
+	display: inline-block;
+	height: 2rem;
+	filter: invert(100%);
+}
+
+#btn-add {
+	cursor: pointer;
+}
+
+.btn .btn-info {
+	background-color: #1116ce !important;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+.alert-top {
+	position: fixed;
+	top: 5px;
+	left: 35%;
+	width: 35%;
+}
+
+/*========================*/
+
+.outer_bar {
+	width: 100%;
+	background-color: #c9c9c9;
+}
+
+.condemned {
+	height: 100%; text-indent: 20px;
+	background-color: #1116ce;
+}
+
+.user{
+	font-size: 125%;
+	padding: 0.5rem;
+}
+
+th a {
+	color: inherit;
+}
+
+@media print {
+	body { 
+		font-size: 17pt;
+		width: 100%;
+	}
+	th, th a {
+		text-decoration: none !important;
+	}
+}
